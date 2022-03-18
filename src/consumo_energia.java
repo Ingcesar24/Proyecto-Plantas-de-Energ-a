@@ -10,8 +10,7 @@ public class consumo_energia {
 					totalConsumo += consumos[i];
 				}
 				return totalConsumo;
-				
-			}if(Ciudad.toLowerCase().equals("quito")) {
+			}if(Ciudad.toLowerCase().equals("Quito")) {
 				int [] consumos = {400, 432, 400, 432, 420, 432, 460, 432, 400, 432, 300 , 213};
 				for (int i = 0; i < consumos.length; i++) {
 					totalConsumo += consumos[i];
