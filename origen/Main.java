@@ -1,3 +1,4 @@
+
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
@@ -10,13 +11,20 @@ public class Main {
 		Boolean control =true ;
 		
 		do {
-			System.out.println("\n***Menu***");
-			System.out.println("1 Total de megavatios de consumo");
-			System.out.println("2 Nuevo diccionario");
-			System.out.println("3 Dinero recaudado");
-			System.out.println("0 Salir del programa");
+			System.out.println("\n**Menu**");
+			System.out.println("1 Total consumo");
+			System.out.println("2 Nuevo_diccionario");
+			System.out.println("3 Dinero_recaudado");
+			System.out.println("0 Salir");
 			System.out.println(" ");
-			System.out.println("Ingrese opción: ");
+			System.out.println("Ingrese opciÃ³n: ");
+
+
+
+
+
+
+
 
 			int numero = sc.nextInt();
 			
