@@ -27,14 +27,14 @@ public class consumo_energia {
 				}
 				return totalConsumo;
 			}
-		if(Ciudad.toLowerCase().equals("quito")) {
+		if(Ciudad.toLowerCase().equals("Quito")) {
 			int [] consumos = {400, 432, 587, 400, 432, 587, 400, 432, 587, 400, 432, 587};
 			for (int i = 0; i < consumos.length; i++) {
 				totalConsumo += consumos[i];
 			}
 			return totalConsumo;
 		}
-		if(Ciudad.toLowerCase().equals("loja")) {
+		if(Ciudad.toLowerCase().equals("Loja")) {
 			int [] consumos = {50, 32, 32, 50, 32, 32, 50, 32, 32, 50, 32, 32};
 			for (int i = 0; i < consumos.length; i++) {
 				totalConsumo += consumos[i];
